@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		
+		<LangVersion>Latest</LangVersion>
+		<Nullable>enable</Nullable>
+
+		<AssemblyName>Aqueduct</AssemblyName>
+		<RootNamespace>Aqueduct</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  
+	<ItemGroup>
+	  <Compile Remove="obj\**" />
+	  <EmbeddedResource Remove="obj\**" />
+	  <None Remove="obj\**" />
+	</ItemGroup>
+
+
+</Project>
